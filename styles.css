@@ -1,10 +1,11 @@
 body{
-	margin: 0;
+
+	margin:10px auto;
 	padding: 0;
 	font-family: 
 	font-size: 15px;
-	background-color: grey;
-	}
+	background-color: brown;
+		}
 
 nav{
 	background-color: azure;
@@ -20,6 +21,7 @@ nav{
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	font color: grey;
+	font-size: 34px; 
 }
 
 nav ul{
@@ -58,7 +60,8 @@ nav > ul > li > a {
 }
 
 /* SLIDER */
-body { margin:10px auto; text-align:center; }
+
+
 .content { max-width:800px;
 	text-align:left; 
 	margin:auto;
@@ -70,7 +73,7 @@ body { margin:10px auto; text-align:center; }
 .slider {
   width:1000px;
   height:350px;
-  background-color:red;
+  background-color:white;
   margin:auto;
   background-image:url(img/burger.jpg);
   background-position:0;
