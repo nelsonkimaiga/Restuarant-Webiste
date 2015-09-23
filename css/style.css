@@ -54,9 +54,19 @@ a {
   }
 }
 
-.container{
-  
+#text{
+
+ /*z-index: 100;*/
+  position: absolute;
+  color: green;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+ font-family: "Source Sans Pro", sans-serif;
+ font-size: 7em;
 }
+
 
 .cd-intro {
   width: 90%;
