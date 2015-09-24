@@ -75,7 +75,7 @@ a {
 }
 
 .cd-intro {
-  margin: 4em auto;
+  margin: 0.1em auto;
 }
 @media only screen and (min-width: 768px) {
   .cd-intro {
