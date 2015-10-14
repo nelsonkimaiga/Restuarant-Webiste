@@ -109,3 +109,201 @@ body{
   margin:0;
   -webkit-apperance:none;
 }
+
+
+/*-content-----*/
+.top-grid{
+  width: 31.33%;
+  float: left;
+  text-align: center;
+  margin-right: 3%;
+  font-family: 'Open Sans', sans-serif;
+  background:#EAE4D8;
+  padding: 1.5em 0;
+  border-top:5px solid #BD7F1C;
+  margin-top: -4em;
+  -webkit-box-shadow: 0px 56px 36px -60px #121D12;
+  -moz-box-shadow: 0px 56px 36px -60px #121D12;
+  -o-box-shadow: 0px 56px 36px -60px #121D12;
+}
+.top-grid h3{
+  color: #363638;
+  font-size:1.5em;
+  text-transform:uppercase;
+}
+.top-grid p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875em;
+  color:#816943;
+  line-height: 1.5em;
+  margin: 0.5em auto 0.8em auto;
+  width: 90%;
+}
+.top-grid img{
+  display: inline-block;
+}
+.button{
+  color: #FFF;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  padding:10px 15px;
+  border:none;
+  display: inline-block;
+  background:#BD7F1C;
+  margin-top:10px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.button:hover{
+  background:#363638;
+  color:#FFF;
+}
+.top-grids {
+  margin: 0 0 3em 0;
+}
+.last-topgrid{
+  margin:0;
+  margin-top: -4em;
+}
+/*----start---mid-grid-----*/
+.mid-grid h1{
+  font-size:2em;
+  font-family: 'Open Sans', sans-serif;
+  color:#363638;
+  text-transform:uppercase;
+}
+.mid-grid h2{
+  font-size:1em;
+  font-family: 'Open Sans', sans-serif;
+  color:#BD7F1C;
+  margin: 0.5em 0;
+}
+.mid-grid p{
+  font-size: 0.875em;
+  font-family: 'Open Sans', sans-serif;
+  color:#816943;
+  width: 73%;
+  margin: 0 auto;
+  line-height: 1.8em;
+  margin-bottom: 1em;
+}
+.mid-grid {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin: 4em 0 0em 0;
+  background:#EAE4D8;
+  padding: 3em 0;
+}
+
+.mid-grid.button{
+  display:block;
+}
+.button1{
+  color: #FFF;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  padding:10px 15px;
+  border: 1px solid #EEE;
+  margin-top:10px;
+  display: inline-block;
+  background:#BD7F1C;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.button1:hover{
+  background:#363638;
+  color:#FFF;
+}
+/*-----bottom-grids----*/
+.bottom-grid1 {
+  width: 30%;
+  float:left;
+  margin-right: 3%;
+}
+.bottom-last {
+  margin-right:0;
+}
+.bottom-grids{
+  font-family: 'Open Sans', sans-serif;
+  padding: 2em 0 3em 0;
+}
+.bottom-grid1 h3,.bottom-grid2 h3{
+  color:#aa8036;
+  font-family: 'Open Sans', sans-serif;
+  font-size:1.5em;
+  padding: 15px 0px 15px 0px;
+  border-bottom: 1px solid #E9E9E9;
+  margin-bottom: 13px;
+  text-transform: uppercase;
+}
+.bottom-grid1 span,.bottom-grid2 span{
+  color: #BD7F1C;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.bottom-grid1 p,.bottom-grid2 p{
+  font-size: 0.875em;
+  color:#816943;
+  line-height: 1.6em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px 0px 10px 0px;
+}
+.bottom-grid1 ul li a{
+  display:block;
+  color: #816943;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:0.875em;
+  padding:8px 0px 8px 10px;;
+  background:url(../images/marker.png) no-repeat 0;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+.bottom-grid1 ul li a:hover{
+  color:#BD7F1C;
+}
+.bottom-grid-fristlink{
+  background: #026660;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.bottom-grid-fristlink img{
+  vertical-align:middle;
+}
+.bottom-grid-fristlink:hover{
+  color:#000;
+}
+.bottom-grid2 ul li{
+  display: inline-block;
+  width:46%;
+  padding:0px 5px;
+}
+.bottom-grid2 {
+  float: left;
+  width: 33%;
+  margin-right: 3%;
+}
+.bottom-mid span{
+  color:#BD7F1C;
+}
+.bottom-mid a{
+  background:#BD7F1C;
+}
+.bottom-last a{
+  background:#BD7F1C;
+}
+.bottom-last span{
+  color:#BD7F1C;  
+}
+.gallery li a img{
+  display:block;
+}
