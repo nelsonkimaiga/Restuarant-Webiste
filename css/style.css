@@ -452,3 +452,146 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.8em;
 }
+
+
+.testmonial-grid{
+  text-align:center;
+}
+.testmonial-grid h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size:1.8em;
+  color: #363638;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0em 0 0.5em 0;
+}
+.testmonial-grid p{
+  font-size: 0.875em;
+  color:#816943;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0em 1em 1em 1em;
+  line-height: 1.8em;
+}
+.testmonial-grid a{
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+  color:#BD7F1C;
+}
+.testmonials{
+  background:#EAE4D8;
+  padding: 30px 0;
+}
+
+.gallerys {
+  font-family: 'Open Sans', sans-serif;
+}
+.gallerys h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  color: #363638;
+  text-transform: uppercase;
+  padding:1em 0;
+}
+.gallery-grid{
+  width: 31.44%;
+  float:left;
+}
+.gallery-grid p {
+  font-size: 0.875em;
+  padding: 0.2em 0em 1.2em 0em;
+  color: #6a6a6a;
+  line-height: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gallery-button a {
+  color: #FFF;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  padding:8px 10px;
+  border: 1px solid #EEE;
+  display: inline-block;
+  background:#BD7F1C;
+}
+.gallery-button a:hover {
+  background: #363638;
+  color: #FFF;
+}
+.grid2{
+  margin: 0px 35px;
+}
+.gallery-grids {
+  margin-bottom: 30px;
+}
+.gallery-grid a{
+  display:inline-block;
+  position:relative;
+}
+.gallery-grid a img{
+  display:block;
+  max-width:100%;
+}
+.gallery-grid a span {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  line-height:4em;
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0px 1px 1px #000;
+  font-size:3em;
+  opacity: 0;
+  filter: alpha(opacity=0); /* internet explorer */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+  background: rgba(64, 72, 109, 0.61);
+  -moz-transition: opacity 0.3s linear;
+  -o-transition: opacity 0.3s linear;
+  -ms-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+}
+.gallery-grid a:hover span {
+  opacity: 1;
+  filter: alpha(opacity=99); /* internet explorer */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+.projects-bottom-paination ul li{
+  display:inline-block;
+}
+.projects-bottom-paination{
+  text-align: center;
+  padding: 55px 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.projects-bottom-paination li a{
+  font: 400 12px/1.2em Arial;
+  color: #5a5a5a;
+  padding: 11px 18px;
+  background: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  border: 1px solid #e9e9e9;
+  margin-top: 16px;
+}
+.projects-bottom-paination li.active a, .projects-bottom-paination li a:hover {
+  background:#BD7F1C;
+  color:#fff;
+}
+.gallery-grid h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #363638;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  padding: 13px 0px 2px 0px;
+}
+.gallery-grid h4:hover{
+  color:#BD7F1C;
+}
