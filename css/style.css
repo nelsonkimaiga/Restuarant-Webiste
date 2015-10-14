@@ -10,7 +10,37 @@ margin:0;
 padding: 0; 
 width: 100%;
 }
-
+/*header*/
+/*----start-header-----*/
+.header{
+  background:#352f2f;
+  border-bottom:2px solid #bd7f1c;
+}
+.logo{
+  float:left;
+}
+.social-icons{
+  float:right;
+  margin-top: 1.1%;
+}
+.social-icons ul li{
+  display:inline-block;
+}
+.social-icons ul li a{
+  color:#363638;
+  font-family: 'Open Sans', sans-serif;
+  font-size:0.875em;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+.social-icons ul li a:hover{
+  color:#026660;
+}
+.social-icons ul li a img{
+  vertical-align:middle;
+  padding-right: 5px;
+}
 /*top nav*/
 .top-nav {
   background:#4a4444;
