@@ -307,3 +307,148 @@ body{
 .gallery li a img{
   display:block;
 }
+
+/*---footer----*/
+.footer{
+  background:#574d41;
+  padding:20px 0px;
+  margin-top: 30px;
+}
+.footer-grid{
+  float:left;
+  width: 24%;
+  margin-right: 2%;
+}
+.footer-grid h3{
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  font-size:1.2em;
+  text-transform: uppercase;
+  padding: 10px 0 3px 0px;
+}
+.footer-grid p{
+  font-size: 0.85em;
+  padding:5px 0;
+  color:#A3A3A3;
+  line-height: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-grid a{
+  font-family: 'Open Sans', sans-serif;
+  color: #BD7F1C;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  background:#FFF;
+  padding: 10px 15px;
+  display: inline-block;
+  margin: 9px 0;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.footer-grid a:hover{
+  background:#BD7F1C;
+  color:#FFF;
+}
+.footer-grid ul li{
+  display:block;
+}
+.center-grid a{
+  background: none;
+  padding: 0px;
+  color:#C2C2C2;
+  margin: 5px;
+  border-bottom: 1px ridge rgba(192, 192, 192, 0.13);
+  padding: 0px 0px 9px 0px;
+}
+.center-grid{
+  width:20%;
+}
+.center-grid a:hover{
+  background:none;
+}
+.center-grid ul{
+  margin-top:5px;
+}
+.twitts p label{
+  font-weight:bold;
+  font-size:1em;
+  cursor:pointer;
+  padding-right:5px;
+}
+.twitts span{
+  display:block;
+  color:#BD7F1C;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  font-size:0.85em;
+}
+.twitts span:hover{
+  color:#fff;
+  cursor:pointer;
+}
+
+.about-us {
+  padding: 30px 0 50px 0;
+}
+.about-header h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  color: #363638;
+  text-transform: uppercase;
+}
+.about-info a{
+  text-transform: uppercase;
+  font-size:1em;
+  font-family: 'Open Sans', sans-serif;
+  color:#BD7F1C;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  padding: 1em 0 0.5em 0;
+  display: block;
+}
+.about-info p{
+  font-size: 0.85em;
+  color: #816943;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8em;
+}
+
+
+.services {
+  padding: 30px 0 0px 0;
+}
+.services-header h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  color: #363638;
+  text-transform: uppercase;
+}
+.services-grid{
+  width:25%;
+  float:left;
+}
+.services-grid a{
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  color:#BD7F1C;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  padding: 1em 0 0.5em 0;
+  display: block;
+}
+.services-grid p{
+  font-size: 0.875em;
+  color:#816943;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8em;
+}
