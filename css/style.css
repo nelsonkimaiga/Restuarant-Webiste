@@ -10,8 +10,18 @@ margin:0;
 padding: 0; 
 width: 100%;
 }
+
+body{
+  background:#F1EDE4;
+  font-family:Arial, Helvetica, sans-serif;
+}
+/*-wrap-----*/
+.wrap{
+  width:80%;
+  margin:0 auto;
+}
 /*header*/
-/*----start-header-----*/
+
 .header{
   background:#352f2f;
   border-bottom:2px solid #bd7f1c;
