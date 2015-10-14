@@ -716,3 +716,169 @@ body{
     width:95%;
   } 
 }
+
+
+/*----responsive-design-----*/
+@media only screen and (max-width: 1366px) and (min-width: 1280px) {
+  .wrap{
+    width:90%;
+  }
+}
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+  .wrap{
+    width:90%;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .wrap{
+    width:90%;
+  }
+  .bottom-grid2 ul li {
+    width: 45.5%;
+  }
+  .bottom-grid2 ul li{
+    padding:8px 5px;
+  }
+  .gallery-grid a span{
+    line-height:3em;
+  }
+  .grid2 {
+    margin: 0px 34px;
+  }
+  .gallery-grid {
+    width: 30.7%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .wrap{
+    width:95%;
+  }
+  .bottom-grid2 ul li{
+    width:44.5%;
+  }
+  .gallery-grid {
+    width: 30%;
+   }
+}
+@media only screen and (max-width: 640px) {
+  .wrap{
+    width:95%;
+  }
+  .top-nav-left ul li a{
+    padding:20px 8px;
+    font-size:0.8em;
+  }
+  .top-grid h3{
+    font-size:1.2em;
+  }
+  .mid-grid p{
+     width:100%;
+  }
+  .mid-grid{
+    padding:1em 0;
+  }
+  .bottom-grid1,.bottom-grid2{
+    width:94%;
+    padding:3%;
+    margin-right:0;
+  }
+  .bottom-grids{
+    padding:0;
+  }
+  .bottom-grid1 h3, .bottom-grid2 h3{
+    padding:0;
+  }
+  .footer{
+    margin-top:0;
+    padding:0;
+  }
+  .footer-grid{
+    width:94%;
+    padding:3%;
+    margin-right:0;
+  }
+  .services-grid{
+    float:none;
+    width:100%;
+  }
+    .gallery-grid{
+       width:29%;
+    }
+}
+@media only screen and (max-width: 480px) {
+  .wrap{
+    width:95%;
+  }
+  .top-nav-left ul li a{
+    padding:15px 18px;
+  }
+  .top-grid{
+    float:none;
+    width:94%;
+    padding:3%;
+    margin-right:0;
+    margin-top:15px;
+  }
+  .top-grids{
+    margin:0;
+  }
+  .mid-grid{
+    margin:1em 0 0 0;
+  }
+  .specials-grids{
+    padding:5px 0;
+  }
+  .special-grid{
+    float:none;
+    width:94%;
+    padding:3%;
+    margin-right:0;
+  }
+  .gallery-grid{
+    float:none;
+    width:94%;
+    padding:3%;
+  }
+  .grid2{
+    margin:0;
+  }
+  .gallerys h3{
+    padding:5px 0;
+  }
+  .gallery-grid a span{
+    line-height:4em;
+  }
+  .gallery-grids{
+    margin-bottom:0;
+  }
+  .projects-bottom-paination{
+    padding:10px 0 20px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .wrap{
+    width:95%;
+  }
+  .logo{
+    width:60%;
+  }
+  .social-icons ul li a img{
+    padding-right:0;
+  }
+  .top-header{
+    padding:10px 0;
+  }
+  .top-nav-left ul li a {
+    padding: 15px 6.5px;
+    font-size:0.7em;
+   }
+  .gallery-grid h4{
+    padding:5px 0;
+    font-size:1em;
+  }
+  .gallery-grid a span{
+    line-height:3em;
+  }
+  
+  
+}
