@@ -4,6 +4,10 @@ ol,ul{list-style:none;margin:0px;padding:0px;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}
+
+nav.vertical ul li{ display:block;}/* vertical menu */
+nav.horizontal ul li{ display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
 /*body styles*/
 body,html { 
 margin:0; 
@@ -85,7 +89,7 @@ body{
   padding: 20px 0;
 }
 .top-nav-right input[type="submit"]{
-  background: url(../images/) no-repeat 42% 50% #bd7f1c; /*search icon*/
+  background: url(../img/search-icon.png) no-repeat 42% 50% #bd7f1c; /*search icon*/
   padding:14px 20px;
   border: none;
   display: block;
@@ -98,7 +102,7 @@ body{
   -webkit-transition: 0.5s ease;
 }
 .top-nav-right input[type="submit"]:hover{
-  background: url(../images/search-icon.png) no-repeat 42% 50% #996004;
+  background: url(../img/search-icon.png) no-repeat 42% 50% #996004;
 }
 .top-nav-right input[type="text"]{
   border:none;
