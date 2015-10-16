@@ -29,7 +29,7 @@ width: 100%;
 }
 
 body{
-  background:#444;
+  background:#F1EDE4;
   font-family:Arial, Helvetica, sans-serif;
 }
 /*-wrap-----*/
@@ -413,6 +413,7 @@ body{
 
 .about-us {
   padding: 30px 0 50px 0;
+  background-color: 
 }
 .about-header h3{
   font-family: 'Open Sans', sans-serif;
@@ -898,4 +899,43 @@ body{
   }
   
   
+}
+
+/*grid for specials*/
+.special-grid{
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+  text-align: center;
+}
+.specials{
+  margin-top: 2em;
+}
+
+.special-grid img{
+  width:100%;
+}
+.special-grid a{
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+  color:#BD7F1C;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  padding: 0.3em 0;
+  display: block;
+}
+.special-grid p{
+  font-size: 0.85em;
+  color: #816943;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0em 1em 1em 1em;
+  line-height: 1.5em;
+}
+.spe-grid{
+  margin: 0px;
+}
+.specials-grids {
+  padding: 25px 0 60px 0;
 }
