@@ -45,6 +45,7 @@ body{
 }
 .logo{
   float:left;
+  font-size: 20px;
 }
 .social-icons{
   float:right;
