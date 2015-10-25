@@ -9,6 +9,52 @@
   <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
   <script type="text/javascript" src="js/camera.min.js"></script>
   <script type="text/javascript" src="js/jquery.lightbox.js"></script>
+  <script type="text/javascript">
+function form(){
+    var name = document.contactForm.name;
+    var email = document.contactForm.email;
+    var message = document.contactForm.message;
+
+    if (name.value == "")
+    {
+        window.alert("Please enter your name.");
+        name.focus();
+        return false;
+    }
+     if ((isNaN(phone.value)) || (phone.value == "") || (phone.value < 10))
+    {
+        window.alert("Please enter your phone number.");
+        phone.focus();
+        return false;
+    }
+    if (email.value == "")
+    {
+        window.alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+    }
+    if (email.value.indexOf("@", 0) < 0)
+    {
+        window.alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+    }
+    if (email.value.indexOf(".", 0) < 0)
+    {
+        window.alert("Please enter a valid e-mail address.");
+        email.focus();
+        return false;
+    }
+
+    if (message.value == "")
+    {
+        window.alert("Please provide a message.");
+        message.focus();
+        return false;
+    }
+    return true;
+}
+  </script>
 
 </head>
 <!--start of header-->
@@ -19,9 +65,9 @@
       </div>
       <div class="social-icons">
         <ul>
-         <li><a href="http://www.facebook.com/nelsonkimaiga"><img src="img/facebook.png"/></a>
+         <li><a href="http://www.facebook.com/rhapsodyrestuarant"><img src="img/facebook.png"/></a>
           </li>
-          <li><a href="twitter.com/Nelsonguto"><img src="img/twitter.png"/></a>
+          <li><a href="twitter.com/RhapsodyRestuarant"><img src="img/twitter.png"/></a>
           </li>
           <li><a href="#"><img src="img/google.png"/></a>
           </li>
