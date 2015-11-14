@@ -10,6 +10,7 @@
   <script type="text/javascript" src="js/camera.min.js"></script>
   <script type="text/javascript" src="js/jquery.lightbox.js"></script>
   <script type="text/javascript">
+
 function form(){
     var name = document.contactForm.name;
     var email = document.contactForm.email;
@@ -120,7 +121,7 @@ function form(){
 				<div class="col span_2_of_3">
 				  <div class="contact-form">
 				  	<h3>Contact Us</h3><!--contact form-->
-					    <form method="post" action="contact-post.html">
+					    <form action="http://formspree.io/nelsonkimaiga@aol.com" method="POST" onsubmit="return form();" name="contactForm" >
 					    	<div>
 						    	<span><label>NAME</label></span>
 						    	<span><input name="name" type="text" class="textbox"></span>
